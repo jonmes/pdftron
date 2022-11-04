@@ -1,22 +1,17 @@
 <template>
   <div id="webviewer" ref="viewer"></div>
 </template>
-<script>
+<script setup>
 import { ref, onMounted } from "vue";
 import WebViewer from "@pdftron/webviewer";
 
-export default {
-  name: "WebViewer",
-  props: { initialDoc: { type: String } },
-  setup(props) {
-    const viewer = ref(null);
-    onMounted(() => {
-      const path = `${process.env.BASE_URL}webviewer`;
-      WebViewer({ path, initialDoc }, viewer.value);
-    });
-    return { viewer };
-  },
-};
+const props = defineProps(["initialDoc"]);
+
+const viewer = ref(null);
+onMounted(() => {
+  const path = "/webviewer";
+  WebViewer({ path, initialDoc: props.initialDoc }, viewer.value);
+});
 </script>
 
 <style>
