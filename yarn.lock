@@ -17,10 +17,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.13.tgz#64e8825bf0ce769dac94ee39d92ebe6272020dfc"
   integrity sha512-+BoyIm4I8uJmH/QDIH0fu7MG0AEx9OXEDXnqptXCwKOlOqZiS4iraH1Nr7/ObLMokW3sOCeBNyD68ATcV9b9Ag==
 
-"@pdftron/webviewer@^8.9.0":
-  version "8.9.0"
-  resolved "https://registry.yarnpkg.com/@pdftron/webviewer/-/webviewer-8.9.0.tgz#b319c6b0fe815ba1e3b81e6e9b6809796694c69c"
-  integrity sha512-lEFELp29yhiYpypYs360aqoyWEBNhk8Tq9hMnwXOnMaqsfZHOafKmWnba40aZVR8aKv2JK+7idEdwIrmRNGmMQ==
+"@pdftron/webviewer@^8.10.0":
+  version "8.11.0"
+  resolved "https://registry.yarnpkg.com/@pdftron/webviewer/-/webviewer-8.11.0.tgz#11f948f93bcb701c5d32357d650a17455bfa14b7"
+  integrity sha512-TWtvSDAvig/7IQq9gqn1SSYL0cpWSfWo5gEsqmNqRc/qUEEsuZUqpSDXi5zQFX0xr5wWnLSQvrnGKK0iJdKWPg==
 
 "@vitejs/plugin-vue@^3.2.0":
   version "3.2.0"
