@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@pdftron/webviewer": "^8.9.0",
+    "@pdftron/webviewer": "^8.10.0",
     "vue": "^3.2.41"
   },
   "devDependencies": {
